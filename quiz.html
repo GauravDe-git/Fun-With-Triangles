@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triangle Quiz</title>
+</head>
+<body>
+    <div style="text-align: center;">
+    <h1>The Triangle Quiz!</h1>
+    <form class="quiz-form">
+        
+        <p><strong>Question 1:</strong>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°? </p>
+        <label><input type="radio" name="question1" value="45°">45°</label>
+        <label><input type="radio" name="question1" value="90°">90°</label>
+        <label><input type="radio" name="question1" value="60°">60°</label>
+        
+        <p><strong>Question 2:</strong>If a triangle has an angle of 90 degrees, what is it called? </p>
+        <label><input type="radio" name="question2" value="obtuse">obtuse</label>
+        <label><input type="radio" name="question2" value="acute">acute</label>
+        <label><input type="radio" name="question2" value="right angled">right angled</label>
+        
+        <p><strong>Question 3:</strong>Which of the following triangles are always similar? </p>
+        <label><input type="radio" name="question3" value="Equilateral Triangle">Equilateral Triangle</label>
+        <label><input type="radio" name="question3" value="Isosceles Triangle">Isosceles Triangle</label>
+        <label><input type="radio" name="question3" value="Scalen Triangle">Scalen Triangle</label>
+        
+    </form>
+    <br>
+    <button id="submit-answer-btn">Submit Answer</button>
+    <h2 id="output-area"></h2>
+    </div>
+    <script src="./quiz.js"></script>
+</body>
+</html>
